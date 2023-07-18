@@ -31,7 +31,9 @@ body {
   font-family: Poppins;
   font-weight: 400;
 }
+
 /* Main Section Design */
+
 .container {
   width: 100%;
 }
@@ -57,7 +59,6 @@ body {
   writing-mode: vertical-lr;
   position: absolute;
   margin-left: 23.5em;
-  top: 2px;
   font-family: PT Serif;
   font-size: 12px;
   font-weight: 400;
@@ -66,14 +67,11 @@ body {
 .vertical img {
   width: 20vw;
 }
-#special-style {
-  margin-top: 50px;
-}
-#special-style p {
-  margin-top: 3rem;
+.special-style {
+  margin-top: 3em;
 }
 
-/* Footer Section Sytle */
+/* Footer Section Style */
 .footer {
   color: #a9a9a9;
   text-align: center;
@@ -82,4 +80,38 @@ body {
 .footer a {
   color: #a9a9a9;
   font-weight: 800;
+}
+
+/* Responsive Style for  Small Devices*/
+
+@media screen and (max-width: 575px) {
+  body {
+    margin-left: 15px;
+  }
+  .container {
+    width: 100vw;
+  }
+  .content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 65px;
+  }
+  .header-container {
+    flex-direction: column;
+    gap: 38px;
+  }
+  .header-right p {
+    width: 75%;
+  }
+  .vertical img {
+    width: 35vw;
+  }
+  .vertical p {
+    margin-left: 9rem;
+  }
+  #special-style {
+    margin-top: 0em;
+  }
+  .responsive-style {
+    margin-top: 3em;
+  }
 }
