@@ -1,3 +1,85 @@
 body {
   font-family: "Poppins", sans-serif;
+  width: 1140px;
+  margin: 0 auto;
+}
+/* Header Section Design */
+.header-container {
+  display: flex;
+  gap: 100px;
+  color: #000;
+}
+.header-left h2 {
+  font-family: PT Serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -1.62px;
+}
+.header-left,
+.header-right {
+  width: 50%;
+}
+.header-right h4 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header-right p {
+  width: 82%;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 400;
+}
+/* Main Section Design */
+.container {
+  width: 100%;
+}
+.content {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 150px;
+  margin-top: 50px;
+  width: 80%;
+}
+.vertical {
+  color: #000;
+}
+.vertical h4 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+.vertical p {
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  position: absolute;
+  margin-left: 23.5em;
+  top: 2px;
+  font-family: PT Serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+.vertical img {
+  width: 20vw;
+}
+#special-style {
+  margin-top: 50px;
+}
+#special-style p {
+  margin-top: 3rem;
+}
+
+/* Footer Section Sytle */
+.footer {
+  color: #a9a9a9;
+  text-align: center;
+  margin-top: 100px;
+}
+.footer a {
+  color: #a9a9a9;
+  font-weight: 800;
 }
