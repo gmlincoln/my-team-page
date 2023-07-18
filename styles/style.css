@@ -43,7 +43,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 150px;
   margin-top: 50px;
-  width: 80%;
+  width: 100vw;
 }
 .vertical {
   color: #000;
@@ -87,7 +87,10 @@ body {
 @media screen and (max-width: 575px) {
   body {
     width: 100vw;
-    padding: 20px;
+  }
+  .header,
+  .main {
+    margin: 0 5px;
   }
   .container {
     width: 100vw;
@@ -98,10 +101,15 @@ body {
   }
   .header-container {
     flex-direction: column;
-    gap: 38px;
+    gap: 20px;
+  }
+  .header-left,
+  .header-right {
+    width: 100vw;
   }
   .header-right p {
-    width: 75vw;
+    width: 90vw;
+    font-size: 16px;
   }
   .vertical img {
     width: 35vw;
