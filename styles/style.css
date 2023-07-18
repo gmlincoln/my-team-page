@@ -92,6 +92,7 @@ body {
   .main {
     margin: 0 5px;
   }
+  .header,
   .container {
     width: 100vw;
   }
