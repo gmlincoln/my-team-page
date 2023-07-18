@@ -86,27 +86,28 @@ body {
 
 @media screen and (max-width: 575px) {
   body {
-    margin-left: 15px;
+    width: 100vw;
+    padding: 20px;
   }
   .container {
     width: 100vw;
   }
   .content {
     grid-template-columns: repeat(2, 1fr);
-    gap: 65px;
+    gap: 55px;
   }
   .header-container {
     flex-direction: column;
     gap: 38px;
   }
   .header-right p {
-    width: 75%;
+    width: 75vw;
   }
   .vertical img {
     width: 35vw;
   }
   .vertical p {
-    margin-left: 9rem;
+    margin-left: 9.5rem;
   }
   #special-style {
     margin-top: 0em;
